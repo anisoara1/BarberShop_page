@@ -1,0 +1,179 @@
+.seventh-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 44px;
+  padding: 9% 2% 8% 15%;
+  background: #191c26;
+}
+
+.form__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.form--align-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.form__input {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 1px solid #9da4bd;
+  background: transparent;
+  padding-bottom: 8px;
+  width: 270px;
+}
+
+.form__input::placeholder {
+  color: #9da4bd;
+}
+
+.form__input:hover {
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.form__input--width {
+  padding-bottom: 60px;
+  width: 570px;
+}
+
+.form__btn {
+  background: transparent;
+  padding: 12px 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: #fff;
+  margin: 44px 0 0 0;
+  width: 164px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+}
+
+.contact {
+  padding: 9% 30% 8% 7%;
+  background-image: url('../images/barberSalonBg.png');
+  background-color: #191c26;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.address {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 40px 0 70px 0;
+}
+
+.address__item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.address__link {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.address__icon {
+  fill: none;
+  stroke: #9da4bd;
+}
+
+.address__link--map {
+  width: 230px;
+}
+
+.address__link--underline {
+  text-decoration: underline;
+}
+
+.address__icon--map {
+  margin-bottom: 26px;
+}
+
+.address__icon {
+  stroke: #9da4bd;
+  fill: none;
+}
+
+.hours {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  flex-wrap: no-wrap;
+}
+
+.hours__icon {
+  fill: rgba(157, 164, 189, 0.4);
+}
+
+.hours__title {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hours__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
