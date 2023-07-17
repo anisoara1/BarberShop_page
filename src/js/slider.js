@@ -11,6 +11,23 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+let slideInterval = setInterval(() => {
+  plusSlides(1);
+}, 3000);
+
+let slideshowContainer = document.getElementsByClassName(
+  'slideshow-container'
+)[0];
+slideshowContainer.addEventListener('mouseenter', () => {
+  clearInterval(slideInterval);
+});
+
+slideshowContainer.addEventListener('mouseleave', () => {
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 3000);
+});
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName('slide');
